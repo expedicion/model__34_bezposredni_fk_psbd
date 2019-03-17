@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Bezposredni_FK" id="7244D9FB-300D-FFA7-E7A9-CD99B920B1CC" version="3.5">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-13 17:50:40 UTC</createdTime>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7244D9FB-300D-FFA7-E7A9-CD99B920B1CC</designId>
+</OSDM_Design>

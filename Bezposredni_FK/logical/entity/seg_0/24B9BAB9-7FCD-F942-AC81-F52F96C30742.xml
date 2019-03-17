@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24B9BAB9-7FCD-F942-AC81-F52F96C30742" name="KONTO">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:50:50 UTC</createdTime>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<engineerTo>
+<item key="FC9AC84A-B880-4872-0681-B8871C7846D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_KONTA" id="A5C22037-D917-0EC0-F6BF-123CD69207BA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:50:58 UTC</createdTime>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<engineerTo>
+<item key="FC9AC84A-B880-4872-0681-B8871C7846D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_KLIENTA" id="3CF71991-B029-F006-C893-650F23691DCF">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:51:03 UTC</createdTime>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<engineerTo>
+<item key="FC9AC84A-B880-4872-0681-B8871C7846D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA_WLASCICIELA" id="5164844B-3440-0B65-4DA9-0CC1D586568A">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:51:10 UTC</createdTime>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<engineerTo>
+<item key="FC9AC84A-B880-4872-0681-B8871C7846D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_KLIENTA1" id="00AB55D5-5EDA-17CC-D31C-33FA410604AD">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:52:32 UTC</createdTime>
+<generatorID>ED2360A5-E728-5477-0E4F-4A8AE742F376</generatorID>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<engineerTo>
+<item key="FC9AC84A-B880-4872-0681-B8871C7846D5" value="true"/>
+</engineerTo>
+<referedAttribute>263D1F15-9719-882D-08E8-E7472A6A090F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5DF75C34-9184-191A-B3C8-6F407CC7762B" name="KONTO PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:51:02 UTC</createdTime>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<engineerTo>
+<item key="FC9AC84A-B880-4872-0681-B8871C7846D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A5C22037-D917-0EC0-F6BF-123CD69207BA</attributeRef>
+<attributeRef>00AB55D5-5EDA-17CC-D31C-33FA410604AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

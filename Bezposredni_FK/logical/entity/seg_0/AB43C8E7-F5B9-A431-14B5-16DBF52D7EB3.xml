@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AB43C8E7-F5B9-A431-14B5-16DBF52D7EB3" name="OPERACJA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:53:47 UTC</createdTime>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<engineerTo>
+<item key="FC9AC84A-B880-4872-0681-B8871C7846D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_OPERACJI" id="3EC10181-30FD-37DE-93B0-7ADC37F6AD81">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:53:59 UTC</createdTime>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<engineerTo>
+<item key="FC9AC84A-B880-4872-0681-B8871C7846D5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_I_CZAS" id="59E01353-FE09-DD9B-AF44-AD0587D6D3CF">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:54:44 UTC</createdTime>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<engineerTo>
+<item key="FC9AC84A-B880-4872-0681-B8871C7846D5" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_KONTA" id="67AC07E5-EE8A-3131-4C50-7B771D46A29C">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:55:00 UTC</createdTime>
+<generatorID>BEEEF445-6CD1-9294-BAEB-327EB3B76262</generatorID>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<engineerTo>
+<item key="FC9AC84A-B880-4872-0681-B8871C7846D5" value="true"/>
+</engineerTo>
+<referedAttribute>A5C22037-D917-0EC0-F6BF-123CD69207BA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_KLIENTA1" id="F1523D9D-C449-BE38-B402-8D8F88FAEA0B">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:55:00 UTC</createdTime>
+<generatorID>BEEEF445-6CD1-9294-BAEB-327EB3B76262</generatorID>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<engineerTo>
+<item key="FC9AC84A-B880-4872-0681-B8871C7846D5" value="true"/>
+</engineerTo>
+<referedAttribute>00AB55D5-5EDA-17CC-D31C-33FA410604AD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_KLIENTA" id="685514EB-41B9-82FB-1326-8E218488C00C">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:55:09 UTC</createdTime>
+<generatorID>55B32A8E-DCF4-79CB-620C-4F181E951681</generatorID>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<engineerTo>
+<item key="FC9AC84A-B880-4872-0681-B8871C7846D5" value="true"/>
+</engineerTo>
+<referedAttribute>263D1F15-9719-882D-08E8-E7472A6A090F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="39A8433F-8900-B949-8173-3E3AE1917640" name="OPERACJA PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-13 17:55:00 UTC</createdTime>
+<ownerDesignName>Bezposredni_FK</ownerDesignName>
+<engineerTo>
+<item key="FC9AC84A-B880-4872-0681-B8871C7846D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>67AC07E5-EE8A-3131-4C50-7B771D46A29C</attributeRef>
+<attributeRef>F1523D9D-C449-BE38-B402-8D8F88FAEA0B</attributeRef>
+<attributeRef>685514EB-41B9-82FB-1326-8E218488C00C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
